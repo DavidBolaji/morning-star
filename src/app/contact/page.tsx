@@ -6,9 +6,26 @@ import Card from "@/components/ui/Card";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Morning Star Academy",
+  title: "Contact Us",
   description:
-    "Get in touch with Morning Star Academy. Visit our campus, call us, or send us a message.",
+    "Get in touch with Morning Star Academy in Victoria Island, Lagos. Visit our campus, call +234 800 000 0000, email us, or schedule a visit. Admissions inquiries welcome.",
+  openGraph: {
+    title: "Contact Us | Morning Star Academy",
+    description:
+      "Reach out for admissions, inquiries, or to schedule a campus visit at Morning Star Academy, Lagos.",
+    url: "/contact",
+    images: [
+      {
+        url: "/images/06.54.06_1d4a0094.jpg.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Morning Star Academy",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 const contactDetails = [

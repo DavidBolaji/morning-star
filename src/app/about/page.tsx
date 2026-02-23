@@ -6,9 +6,26 @@ import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "About Us | Morning Star Academy",
+  title: "About Us",
   description:
-    "Learn about Morning Star Academy's mission, vision, history, and the dedicated team behind our world-class education.",
+    "Learn about Morning Star Academy's mission, vision, 20-year history, core values, and the dedicated leadership team behind our world-class education in Lagos, Nigeria.",
+  openGraph: {
+    title: "About Us | Morning Star Academy",
+    description:
+      "Discover our mission, vision, history, and the team behind Morning Star Academy's world-class education.",
+    url: "/about",
+    images: [
+      {
+        url: "/images/06.54.01_8c95968d.jpg.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Morning Star Academy - About Us",
+      },
+    ],
+  },
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const values = [
