@@ -6,19 +6,19 @@ import { useState, useEffect } from "react";
 
 const slides = [
   {
-    image: "/images/06.54.01_8c95968d.jpg.jpeg",
-    title: "Shaping Tomorrow's Leaders Today",
+    image: "/images/slide-1.jpeg",
+    title: "Nurturing Excellence for Generations",
     subtitle:
       "At Morning Star Academy, we provide a world-class education that nurtures academic excellence, creativity, and character in every child.",
   },
   {
-    image: "/images/06.54.06_1d4a0094.jpg.jpeg",
-    title: "Where Excellence Meets Purpose",
+    image: "/images/slide-2.jpeg",
+    title: "Inspiring Excellence, Creating Leaders",
     subtitle:
       "Our students thrive in a supportive environment designed to unlock their full potential and prepare them for global success.",
   },
   {
-    image: "/images/06.54.07_a0f2bbcf.jpg.jpeg",
+    image: "/images/slide-3.jpeg",
     title: "A Legacy of Academic Distinction",
     subtitle:
       "Join a community of learners, thinkers, and achievers who are making a difference in the world.",
@@ -36,7 +36,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative h-[85vh] min-h-[600px] overflow-hidden">
+    <section className="relative h-[85vh] min-h-150 overflow-hidden">
       {slides.map((slide, i) => (
         <div
           key={i}

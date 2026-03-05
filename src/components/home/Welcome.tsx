@@ -114,7 +114,7 @@ export default function Welcome() {
             </button>
           </div>
           <div className="absolute -bottom-6 -left-6 bg-accent text-primary-dark p-6 rounded-2xl shadow-xl hidden lg:block">
-            <p className="font-bold text-2xl">Est. 2005</p>
+            <p className="font-bold text-2xl">Est. 1987</p>
             <p className="text-sm">Building futures</p>
           </div>
         </div>

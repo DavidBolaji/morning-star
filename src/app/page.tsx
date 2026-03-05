@@ -10,11 +10,11 @@ import CallToAction from "@/components/home/CallToAction";
 export const metadata: Metadata = {
   title: "Morning Star Academy | Excellence in Education",
   description:
-    "Morning Star Academy is a leading private school in Lagos, Nigeria offering world-class primary and secondary education. Admissions open for 2026/2027.",
+    "Morning Star Academy is a leading private school in Ibadan, Nigeria offering world-class primary and secondary education. Admissions open for 2026/2027. Motto: Ora Et Labora.",
   openGraph: {
     title: "Morning Star Academy | Excellence in Education",
     description:
-      "A leading private school in Lagos offering world-class primary and secondary education. Admissions open for 2026/2027.",
+      "A leading private school in Ibadan offering world-class primary and secondary education. Admissions open for 2026/2027.",
     url: "/",
   },
   alternates: {
@@ -32,13 +32,13 @@ const jsonLd = {
   logo: "https://morningstaracademy.edu/images/logo.png",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "123 Academy Drive",
-    addressLocality: "Victoria Island, Lagos",
+    streetAddress: "Old Army Barracks behind Brent Supermarket Sawmill, Old Ife Road",
+    addressLocality: "Ibadan",
     addressCountry: "NG",
   },
-  telephone: "+234-800-000-0000",
+  telephone: "+234-803-352-9368",
   email: "info@morningstaracademy.edu",
-  foundingDate: "2005",
+  foundingDate: "1987",
   sameAs: [],
 };
 

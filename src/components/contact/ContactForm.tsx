@@ -12,7 +12,7 @@ export default function ContactForm() {
 
   if (submitted) {
     return (
-      <div className="bg-surface rounded-2xl p-8 flex flex-col items-center justify-center text-center min-h-[400px]">
+      <div className="bg-surface rounded-2xl p-8 flex flex-col items-center justify-center text-center min-h-100">
         <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
           <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -82,7 +82,7 @@ export default function ContactForm() {
           id="phone"
           name="phone"
           className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition-all"
-          placeholder="+234 800 000 0000"
+          placeholder="+234 803 352 9368"
         />
       </div>
       <div>

@@ -8,11 +8,11 @@ import Button from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Morning Star Academy's mission, vision, 20-year history, core values, and the dedicated leadership team behind our world-class education in Lagos, Nigeria.",
+    "Learn about Morning Star Academy's mission, vision, motto 'Ora Et Labora', core values, and the dedicated leadership team behind our world-class education in Ibadan, Nigeria. Founded in 1987.",
   openGraph: {
     title: "About Us | Morning Star Academy",
     description:
-      "Discover our mission, vision, history, and the team behind Morning Star Academy's world-class education.",
+      "Discover our mission, vision, motto, history, and the team behind Morning Star Academy's world-class education since 1987.",
     url: "/about",
     images: [
       {
@@ -29,10 +29,12 @@ export const metadata: Metadata = {
 };
 
 const values = [
-  { icon: "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z", title: "Innovation", desc: "Embracing modern teaching methods and technology to prepare students for the future." },
+  { icon: "M12 14l9-5-9-5-9 5 9 5z M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z", title: "Academic Excellence", desc: "Striving for the highest standards in teaching and learning to unlock every student's potential." },
+  { icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z", title: "Leadership", desc: "Developing confident leaders who inspire and guide others with vision and integrity." },
   { icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z", title: "Integrity", desc: "Building character through honesty, accountability, and ethical conduct in all we do." },
-  { icon: "M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9", title: "Global Mindset", desc: "Cultivating awareness and appreciation of diverse cultures and perspectives." },
-  { icon: "M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z", title: "Compassion", desc: "Fostering empathy and kindness, creating a supportive community for all." },
+  { icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z", title: "Teamwork", desc: "Fostering collaboration and cooperation to achieve common goals together." },
+  { icon: "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z", title: "Critical Thinking", desc: "Encouraging analytical and creative thinking to solve complex problems." },
+  { icon: "M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z", title: "Character Development", desc: "Nurturing strong moral values and personal growth in every student." },
 ];
 
 const leaders = [
@@ -42,19 +44,19 @@ const leaders = [
 ];
 
 const milestones = [
-  { year: "2005", title: "The Beginning", event: "Founded with 50 students and a bold vision to transform education." },
-  { year: "2010", title: "Growth & Expansion", event: "Expanded to include secondary school programs, doubling our student body." },
-  { year: "2015", title: "Global Recognition", event: "Achieved international accreditation, joining Africa's top schools." },
-  { year: "2018", title: "Innovation Hub", event: "Opened state-of-the-art science and technology wing." },
-  { year: "2022", title: "100% Placement", event: "First cohort with 100% university placement across 3 continents." },
-  { year: "2025", title: "Going Global", event: "Launched exchange partnerships with schools across 5 countries." },
+  { year: "1987", title: "The Beginning", event: "Founded with a bold vision to transform education. Motto: 'Ora Et Labora' (Pray and Work)." },
+  { year: "1995", title: "Growth & Expansion", event: "Expanded to include secondary school programs, growing our student community." },
+  { year: "2005", title: "Two Decades Strong", event: "Celebrated 18 years of excellence in education." },
+  { year: "2015", title: "Community Impact", event: "Recognized for outstanding contribution to education in Ibadan." },
+  { year: "2020", title: "Modern Learning", event: "Enhanced facilities and adopted innovative teaching methods." },
+  { year: "2027", title: "40th Anniversary", event: "Celebrating four decades of academic excellence and character building." },
 ];
 
 export default function AboutPage() {
   return (
     <>
       {/* Hero Banner */}
-      <section className="relative h-[50vh] min-h-[350px] flex items-center">
+      <section className="relative h-[50vh] min-h-87.5 flex items-center">
         <Image
           src="/images/06.54.01_8c95968d.jpg.jpeg"
           alt="About Morning Star Academy"
@@ -67,8 +69,12 @@ export default function AboutPage() {
         <div className="relative z-10 mx-auto max-w-7xl px-4 w-full">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">About Us</span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mt-2 mb-4">Our Story</h1>
+          <div className="mb-4">
+            <p className="text-accent font-serif text-2xl italic mb-1">Ora Et Labora</p>
+            <p className="text-white/60 text-sm">Pray and Work - Our Guiding Motto Since 1987</p>
+          </div>
           <p className="text-white/80 text-lg max-w-xl">
-            Two decades of shaping minds, building character, and creating leaders.
+            Nearly four decades of shaping minds, building character, and creating leaders.
           </p>
         </div>
       </section>
@@ -85,9 +91,7 @@ export default function AboutPage() {
             </div>
             <h3 className="text-2xl font-bold text-primary-dark mb-3">Our Vision</h3>
             <p className="text-gray-600 leading-relaxed">
-              To be a globally recognized institution that produces well-rounded individuals
-              equipped with knowledge, skills, and values to lead and transform their communities
-              and the world.
+              To be a leading educational institution creating life long learners, unlocking potentials and inspiring excellence.
             </p>
           </div>
           <div className="bg-surface rounded-2xl p-8">
@@ -98,9 +102,7 @@ export default function AboutPage() {
             </div>
             <h3 className="text-2xl font-bold text-primary-dark mb-3">Our Mission</h3>
             <p className="text-gray-600 leading-relaxed">
-              To provide an exceptional, holistic education that nurtures intellectual curiosity,
-              develops character, and empowers every student to achieve their highest potential
-              in a safe, inclusive, and stimulating environment.
+              To provide through innovative teaching and personalized guidance, a dynamic learning environment where we nuture curious minds, foster creativity and cultivate a passion for knowledge.
             </p>
           </div>
         </div>
@@ -109,7 +111,7 @@ export default function AboutPage() {
       {/* Core Values */}
       <SectionWrapper bg="surface">
         <SectionHeading title="Our Core Values" subtitle="The principles that guide everything we do at Morning Star Academy." />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {values.map((v) => (
             <Card key={v.title} className="text-center">
               <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">

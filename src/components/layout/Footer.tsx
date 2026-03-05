@@ -9,8 +9,8 @@ const quickLinks = [
 ];
 
 const contactInfo = [
-  { icon: "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z", icon2: "M15 11a3 3 0 11-6 0 3 3 0 016 0z", text: "123 Academy Drive, Lagos, Nigeria" },
-  { icon: "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z", text: "+234 800 000 0000" },
+  { icon: "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z", icon2: "M15 11a3 3 0 11-6 0 3 3 0 016 0z", text: "Old Army Barracks behind Brent Supermarket Sawmill, Old Ife Road, Ibadan" },
+  { icon: "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z", text: "+234 803 352 9368" },
   { icon: "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z", text: "info@morningstaracademy.edu" },
 ];
 
@@ -28,8 +28,12 @@ export default function Footer() {
                 <span className="text-xs text-white/60 tracking-wider uppercase">Academy</span>
               </div>
             </div>
+            <div className="mb-3 pb-3 border-b border-white/10">
+              <p className="text-accent font-serif text-base italic">Ora Et Labora</p>
+              <p className="text-white/50 text-xs mt-1">Pray and Work</p>
+            </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Nurturing future leaders through academic excellence, character development, and holistic education since 2005.
+              Nurturing future leaders through academic excellence, character development, and holistic education since 1987.
             </p>
           </div>
 
@@ -67,9 +71,8 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-accent mb-4 text-sm uppercase tracking-wider">School Hours</h3>
             <div className="space-y-2 text-white/70 text-sm">
-              <p>Monday – Friday: 7:30 AM – 3:30 PM</p>
-              <p>Saturday: 8:00 AM – 12:00 PM</p>
-              <p>Sunday: Closed</p>
+              <p>Monday – Friday: 8:00 AM – 4:00 PM</p>
+              <p>Saturday & Sunday: Closed</p>
             </div>
           </div>
         </div>
