@@ -8,18 +8,18 @@ import Button from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Morning Star Academy's mission, vision, motto 'Ora Et Labora', core values, and the dedicated leadership team behind our world-class education in Ibadan, Nigeria. Founded in 1987.",
+    "Learn about Morning Star group of schools's mission, vision, motto 'Ora Et Labora', core values, and the dedicated leadership team behind our world-class education in Ibadan, Nigeria. Founded in 1987.",
   openGraph: {
-    title: "About Us | Morning Star Academy",
+    title: "About Us | Morning Star group of schools",
     description:
-      "Discover our mission, vision, motto, history, and the team behind Morning Star Academy's world-class education since 1987.",
+      "Discover our mission, vision, motto, history, and the team behind Morning Star group of schools's world-class education since 1987.",
     url: "/about",
     images: [
       {
         url: "/images/06.54.01_8c95968d.jpg.jpeg",
         width: 1200,
         height: 630,
-        alt: "Morning Star Academy - About Us",
+        alt: "Morning Star group of schools - About Us",
       },
     ],
   },
@@ -59,7 +59,7 @@ export default function AboutPage() {
       <section className="relative h-[50vh] min-h-87.5 flex items-center">
         <Image
           src="/images/06.54.01_8c95968d.jpg.jpeg"
-          alt="About Morning Star Academy"
+          alt="About Morning Star group of schools"
           fill
           className="object-cover"
           priority
@@ -110,7 +110,7 @@ export default function AboutPage() {
 
       {/* Core Values */}
       <SectionWrapper bg="surface">
-        <SectionHeading title="Our Core Values" subtitle="The principles that guide everything we do at Morning Star Academy." />
+        <SectionHeading title="Our Core Values" subtitle="The principles that guide everything we do at Morning Star group of schools." />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {values.map((v) => (
             <Card key={v.title} className="text-center">
@@ -128,7 +128,7 @@ export default function AboutPage() {
 
       {/* History Timeline */}
       <SectionWrapper bg="white">
-        <SectionHeading title="Our Journey" subtitle="Key milestones in the Morning Star Academy story." />
+        <SectionHeading title="Our Journey" subtitle="Key milestones in the Morning Star group of schools story." />
 
         <div className="relative max-w-4xl mx-auto">
           {/* Center line — desktop only */}
@@ -167,7 +167,7 @@ export default function AboutPage() {
 
       {/* Leadership */}
       <SectionWrapper bg="surface">
-        <SectionHeading title="Our Leadership" subtitle="Meet the dedicated team guiding Morning Star Academy." />
+        <SectionHeading title="Our Leadership" subtitle="Meet the dedicated team guiding Morning Star group of schools." />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {leaders.map((leader) => (
             <div key={leader.name} className="text-center group">

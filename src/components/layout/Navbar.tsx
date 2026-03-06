@@ -32,7 +32,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/images/logo.png"
-            alt="Morning Star Academy"
+            alt="Morning Star group of schools"
             width={48}
             height={48}
             className="w-12 h-12 object-contain"
@@ -42,7 +42,7 @@ export default function Navbar() {
               Morning Star
             </span>
             <span className="text-xs text-gray-500 tracking-wider uppercase">
-              Academy
+              group of schools
             </span>
           </div>
         </Link>

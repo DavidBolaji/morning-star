@@ -8,18 +8,18 @@ import ContactForm from "@/components/contact/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Morning Star Academy in Ibadan, Nigeria. Visit our campus at Old Ife Road, call +234 803 352 9368, email us, or schedule a visit. Admissions inquiries welcome.",
+    "Get in touch with Morning Star group of schools in Ibadan, Nigeria. Visit our campus at Old Ife Road, call +234 803 352 9368, email us, or schedule a visit. Admissions inquiries welcome.",
   openGraph: {
-    title: "Contact Us | Morning Star Academy",
+    title: "Contact Us | Morning Star group of schools",
     description:
-      "Reach out for admissions, inquiries, or to schedule a campus visit at Morning Star Academy, Ibadan.",
+      "Reach out for admissions, inquiries, or to schedule a campus visit at Morning Star group of schools, Ibadan.",
     url: "/contact",
     images: [
       {
         url: "/images/06.54.06_1d4a0094.jpg.jpeg",
         width: 1200,
         height: 630,
-        alt: "Contact Morning Star Academy",
+        alt: "Contact Morning Star group of schools",
       },
     ],
   },
@@ -43,7 +43,7 @@ const contactDetails = [
   {
     icon: "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
     title: "Email Us",
-    lines: ["info@morningstaracademy.edu", "admissions@morningstaracademy.edu"],
+    lines: ["info@morningstargroup of schools.edu", "admissions@morningstargroup of schools.edu"],
   },
   {
     icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
@@ -59,7 +59,7 @@ export default function ContactPage() {
       <section className="relative h-[45vh] min-h-75 flex items-center">
         <Image
           src="/images/06.54.06_1d4a0094.jpg.jpeg"
-          alt="Contact Morning Star Academy"
+          alt="Contact Morning Star group of schools"
           fill
           className="object-cover"
           priority
@@ -112,7 +112,7 @@ export default function ContactPage() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Morning Star Academy Location - Old Ife Road, Ibadan"
+              title="Morning Star group of schools Location - Old Ife Road, Ibadan"
             />
           </div>
         </div>

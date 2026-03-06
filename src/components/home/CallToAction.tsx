@@ -6,7 +6,7 @@ export default function CallToAction() {
     <section className="relative py-24 overflow-hidden">
       <Image
         src="/images/6.56.51 AM.jpeg"
-        alt="Morning Star Academy campus"
+        alt="Morning Star group of schools campus"
         fill
         className="object-cover"
         sizes="100vw"

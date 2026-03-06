@@ -9,7 +9,7 @@ const slides = [
     image: "/images/slide-1.jpeg",
     title: "Nurturing Excellence for Generations",
     subtitle:
-      "At Morning Star Academy, we provide a world-class education that nurtures academic excellence, creativity, and character in every child.",
+      "At Morning Star group of schools, we provide a world-class education that nurtures academic excellence, creativity, and character in every child.",
   },
   {
     image: "/images/slide-2.jpeg",

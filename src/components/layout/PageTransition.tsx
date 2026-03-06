@@ -111,7 +111,7 @@ export default function PageTransition() {
             Morning Star
           </p>
           <p className="text-gray-400 text-xs tracking-widest uppercase mt-0.5">
-            Academy
+            group of schools
           </p>
         </div>
 

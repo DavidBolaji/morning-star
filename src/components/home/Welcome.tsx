@@ -36,7 +36,7 @@ export default function Welcome() {
             A Tradition of Excellence in Education
           </h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Morning Star Academy is a premier educational institution dedicated to
+            Morning Star group of schools is a premier educational institution dedicated to
             providing a holistic learning experience. Our curriculum blends
             rigorous academics with character development, creative arts, and
             physical education.

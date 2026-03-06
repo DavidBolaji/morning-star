@@ -17,11 +17,11 @@ export default function PreHeader() {
             </svg>
             <span className="hidden sm:inline">+234 803 352 9368</span>
           </a>
-          <a href="mailto:info@morningstaracademy.edu" className="hover:text-accent transition-colors flex items-center gap-1">
+          <a href="mailto:info@morningstargroup of schools.edu" className="hover:text-accent transition-colors flex items-center gap-1">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
-            <span className="hidden sm:inline">info@morningstaracademy.edu</span>
+            <span className="hidden sm:inline">info@morningstargroup of schools.edu</span>
           </a>
         </div>
         <div className="flex items-center gap-3">

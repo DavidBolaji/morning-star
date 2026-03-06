@@ -7,7 +7,7 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Morning Star Academy transformed my child's confidence and academic performance. The teachers genuinely care about each student's growth.",
+      "Morning Star group of schools transformed my child's confidence and academic performance. The teachers genuinely care about each student's growth.",
     name: "Mrs. Adebayo",
     role: "Parent",
     initials: "MA",
