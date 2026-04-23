@@ -17,12 +17,12 @@ const slides = [
     subtitle:
       "Our students thrive in a supportive environment designed to unlock their full potential and prepare them for global success.",
   },
-  {
-    image: "/images/slide-3.jpeg",
-    title: "A Legacy of Academic Distinction",
-    subtitle:
-      "Join a community of learners, thinkers, and achievers who are making a difference in the world.",
-  },
+  // {
+  //   image: "/images/slide-3.jpeg",
+  //   title: "A Legacy of Academic Distinction",
+  //   subtitle:
+  //     "Join a community of learners, thinkers, and achievers who are making a difference in the world.",
+  // },
 ];
 
 export default function Hero() {
